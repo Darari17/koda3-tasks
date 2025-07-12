@@ -1,6 +1,6 @@
 const countArray = (arr) => {
     if (!Array.isArray(arr)) {
-        return "Parameter harus bertipe data Array";
+        throw new Error ("parameter harus bertipe data Array");
     }
 
     let result = 1;
