@@ -89,16 +89,13 @@ function taskFarid(){
     // 4. perkalian element ganjil
     console.log();
     console.log("=== Task 4: Multiply element===");
-    try {
-        console.log(farid.processNumbers([1,2,3,4,5]));
-        console.log(farid.processNumbers([2,4,6,8,]));
-    } catch (error) {
-        console.log(error.message);
-    }
+    console.log(farid.processNumbers([1,2,3,4,5]));
+    console.log(farid.processNumbers([2,4,6,8,]));
+
 
     // 5. cetak tabel perkalian
     console.log();
-    console.log("=== Task 5: Print multiply table===");
+    console.log("=== Task 5: Print multiplication table===");
     try {
         farid.printTable("abc");
         farid.printTable(-1);
@@ -110,12 +107,9 @@ function taskFarid(){
     // 6. rentang antara 2 parameter angka
     console.log();
     console.log("=== Task 6: Range numbers===");
-    try {
-        console.log(farid.range(1,5));
-        console.log(farid.range(5,10));
-    } catch (error) {
-        console.log(error.message);
-    }
+    console.log(farid.range(1,5));
+    console.log(farid.range(5,10));
+
 }
 taskFarid();
 
