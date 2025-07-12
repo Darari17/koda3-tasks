@@ -1,7 +1,6 @@
 const triangle1st = (numbers) => {
     if (typeof numbers !== "number" || numbers <= 0) {
-        console.log("Parameter harus bertipe data nomor dan harus nomor positif");
-        return;
+        throw new Error("Parameter harus bertipe data nomor dan harus nomor positif");
     }
 
     for (let i = 1; i <= numbers; i++) {
